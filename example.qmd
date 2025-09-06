@@ -1,0 +1,20 @@
+---
+title: "Bibentry Example"
+bibliography: refs.bib
+filters:
+  - bibentry
+format:
+  typst:
+    pandoc:
+      citeproc: true
+  html: default
+---
+
+This filter let you add a bib entry of a citation @hallal2010:
+
+[@hallal2010]{ .bibentry }
+
+
+## References
+::: {#refs}
+:::
